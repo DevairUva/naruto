@@ -6,11 +6,15 @@ Para apoiar nesse sistema recebemos a tarefa de realizar essa modelagem e respon
 
 ## Perguntas:
 <strong>Existem outras entidades além dessas três? </strong>
+
 Não. Com as entidades Cursos, Turmas e Alunos podemos resolver.
 
 <strong>Quais são os principais campos e tipos? </strong>
+
 Da entidade <strong>Cursos</strong>: id_curso varchar PK, coordenador varchar e grau varchar.
+
 Da entidade <strong>Turmas</strong>: id_turma varchar PK, qtd_max int, materia varchar e professor varchar.
+
 Da entidade <strong>Alunos</strong>: nome varchar, matricula varchar PK, idade int e sexo varchar.
 
 <strong>Como essas entidades estão relacionadas?</strong>
